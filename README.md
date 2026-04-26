@@ -2,6 +2,15 @@
 Overview
 This project automates the end-to-end job application workflow using Make.com. It fetches job listings, evaluates relevance using AI, generates a tailored cover letter, and allows controlled email drafting through Telegram.
 The system focuses on structured decision-making, validation, and human-in-the-loop control instead of fully automated submissions.
+
+I built an end-to-end AI-driven job application assistant using Make.com to automate the job search and application workflow while keeping user control in the loop.
+The workflow starts by ingesting job data from Browse AI into Google Sheets. Before processing, I validate and filter out duplicate jobs using the job URL to ensure we don’t reprocess the same listing.
+Next, I use AI to analyze each job. It extracts a structured summary and evaluates how well the role matches my profile. Based on this, the system generates a tailored cover letter in a structured format, which is then converted into an image for better readability and presentation.
+This output is sent to Telegram along with a unique Job ID. Instead of fully automating the application, I designed a human-in-the-loop step. The user reviews the job and triggers the next action by replying with a command in a strict format.
+When the command is received, I validate it rigorously, extract the Job ID, fetch the corresponding job details from Google Sheets, and create a Gmail draft. I intentionally generate a draft instead of sending the email to maintain control and avoid incorrect submissions. The recruiter email is also left for manual input.
+Throughout the workflow, I maintain structured logging in Google Sheets to track processing status, decisions, and actions taken.
+From a design perspective, I focused on simplicity, deterministic input handling, and clear separation of concerns. I avoided over-engineering with retries and fallbacks to keep the system explainable and reliable for demonstration purposes, while still acknowledging how it can be extended for production use.
+
 ________________________________________
 Objective
 •	Automate job discovery and evaluation
@@ -107,13 +116,6 @@ o	Google Sheets
 5.	Reply with:
 DRAFT EMAIL <Job_ID>
 6.	Review and send email from Gmail draft
-________________________________________
-Interview Talking Points
-•	End-to-end automation using no-code tools
-•	Human-in-the-loop design for control
-•	Structured validation and parsing logic
-•	Trade-off between simplicity and robustness
-•	Real-world application of AI in job search automation
 ________________________________________
 Conclusion
 This system demonstrates a practical and scalable approach to job application automation. It balances automation with user control, ensuring reliability without unnecessary complexity.
