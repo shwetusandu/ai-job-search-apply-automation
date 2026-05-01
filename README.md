@@ -69,7 +69,7 @@ o	Skipped
 ![ai-job-search-apply-automation](docs/Images/AI-Job-Search-Apply-Assistant-Make-workflow.png)
 ![ai-job-search-apply-automation](docs/Images/Draft-Email-for-the-position-Make-workflow.png)
 ![ai-job-search-apply-automation](docs/Images/Sample-Email-Draft.png)
-![ai-job-search-apply-automation](docs/Images/Sample-Telegram-message.png)
+![ai-job-search-apply-automation](docs/Images/Sample-Telegram-Message.png)
 ________________________________________
 
 # Key Design Decisions
