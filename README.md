@@ -64,6 +64,8 @@ o	Action
 o	Processed
 o	Draft Created
 o	Skipped
+
+![ai-job-search-apply-automation](make-blueprints/AI Job Search and Auto-Apply Assistant Make Workflow.png)
 ________________________________________
 
 # Key Design Decisions
