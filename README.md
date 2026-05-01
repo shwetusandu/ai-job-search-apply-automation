@@ -64,6 +64,10 @@ o	Action
 o	Processed
 o	Draft Created
 o	Skipped
+
+
+![AI Job Search and Auto-Apply Assistant](make-blueprints/AI Job Search and Auto-Apply Assistant Make Workflow.png)
+![Draft Email for the Position Make Workflow](make-blueprints/Draft Email for the Position Make Workflow.png)
 ________________________________________
 
 # Key Design Decisions
