@@ -66,8 +66,8 @@ o	Draft Created
 o	Skipped
 
 
-![AI Job Search and Auto-Apply Assistant](make-blueprints/AI Job Search and Auto-Apply Assistant Make Workflow.png)
-![Draft Email for the Position Make Workflow](make-blueprints/Draft Email for the Position Make Workflow.png)
+![ai-job-search-apply-automation](docs/Images/AI-Job-Search-Apply-Assistant-Make-workflow.png)
+![ai-job-search-apply-automation](docs/Images/Draft-Email-for-the-position-Make-workflow.png)
 ________________________________________
 
 # Key Design Decisions
