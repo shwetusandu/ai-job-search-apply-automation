@@ -19,6 +19,12 @@ ________________________________________
 -	Generate personalized cover letters using AI
 -	Enable controlled email drafting
 -	Maintain simplicity, traceability, and reliability
+
+________________________________________
+
+# Inforgraphic Overview
+
+![](docs/Images/AI-Job-Search-and-Auto-Apply-Assistant.png)
 ________________________________________
 
 # Tools Used
